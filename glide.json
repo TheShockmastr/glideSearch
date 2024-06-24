@@ -1,0 +1,48 @@
+[
+  {
+    "kind": "column",
+    "name": "Search",
+    "description": "Search",
+    "author": "Manu.n",
+    "params": [
+      {
+        "name": "st",
+        "displayName": "String",
+        "type": "string"
+      },
+      {
+        "name": "sep",
+        "displayName": "Separator Caractere",
+        "type": "string"
+      },
+      {
+        "name": "esc",
+        "displayName": "Escape Caracteres",
+        "type": "string"
+      },
+      {
+        "name": "search",
+        "displayName": "Search",
+        "type": "string"
+      },
+      {
+        "name": "upper",
+        "displayName": "Option Uppercase Sensitive (1 actif)",
+        "type": "boolean"
+      },
+      {
+        "name": "accent",
+        "displayName": "Option Ignore Accent (1 actif)",
+        "type": "boolean"
+      },
+      {
+        "name": "word",
+        "displayName": "Option Word (1 actif)",
+        "type": "boolean"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
